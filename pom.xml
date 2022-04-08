@@ -21,7 +21,7 @@
                     <!-- we use major.minor.patch versioning, being 0.1.2 respectively.
                          By default the minor version is increased.
                          Hotfixes increase the patch version. -->
-                    <versionDigitToIncrement>${gitflowDigitToIncrement}</versionDigitToIncrement>
+                    <versionDigitToIncrement>1</versionDigitToIncrement>
 
                     <gitFlowConfig>
                         <productionBranch>master</productionBranch>
