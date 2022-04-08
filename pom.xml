@@ -10,7 +10,7 @@
             <plugin>
                 <groupId>com.amashchenko.maven.plugin</groupId>
                 <artifactId>gitflow-maven-plugin</artifactId>
-                <version>1.13.0</version>
+                <version>1.18.0</version>
                 <configuration>
                     <!-- we use maven wrapper instead of maven installation -->
                     <mvnExecutable>./mvnw</mvnExecutable>
