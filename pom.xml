@@ -22,7 +22,7 @@
                          By default the minor version is increased.
                          Hotfixes increase the patch version. -->
                     <versionDigitToIncrement>0</versionDigitToIncrement>
-
+					<commitMessagePrefix>BBB</commitMessagePrefix>
                     <gitFlowConfig>
                         <productionBranch>master</productionBranch>
                         <!-- default is develop, but we use development -->
