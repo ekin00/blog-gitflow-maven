@@ -14,7 +14,7 @@
                 <configuration>
                     <!-- we use maven wrapper instead of maven installation -->
                     <mvnExecutable>./mvnw</mvnExecutable>
-
+		    <commitDevelopmentVersionAtStart>true<commitDevelopmentVersionAtStart>
                     <!-- don't push to remote, since we want to try things out locally -->
                     <!-- pushRemote>false</pushRemote -->
 
