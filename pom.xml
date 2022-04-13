@@ -14,8 +14,8 @@
                 <configuration>
                     <!-- we use maven wrapper instead of maven installation -->
                     <mvnExecutable>./mvnw</mvnExecutable>
-		    <commitDevelopmentVersionAtStart>true</commitDevelopmentVersionAtStart>
-                    <!-- don't push to remote, since we want to try things out locally -->
+		    <!-- commitDevelopmentVersionAtStart>true</commitDevelopmentVersionAtStart -->
+                    <!-- don't push to remote, since we want to try things out locally default is false-->
 		    <pushRemote>false</pushRemote>
 
                     <!-- we use major.minor.patch versioning, being 0.1.2 respectively.
