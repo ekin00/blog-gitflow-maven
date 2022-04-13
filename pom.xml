@@ -21,7 +21,7 @@
                     <!-- we use major.minor.patch versioning, being 0.1.2 respectively.
                          By default the minor version is increased.
                          Hotfixes increase the patch version. -->
-                    <versionDigitToIncrement>0</versionDigitToIncrement>
+                    <!-- versionDigitToIncrement>0</versionDigitToIncrement -->
 					<commitMessagePrefix>BBB</commitMessagePrefix>
                     <gitFlowConfig>
                         <productionBranch>master</productionBranch>
