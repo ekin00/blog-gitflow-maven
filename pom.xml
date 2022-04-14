@@ -8,27 +8,18 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>com.amashchenko.maven.plugin</groupId>
-                <artifactId>gitflow-maven-plugin</artifactId>
-                <version>1.18.0</version>
-                <configuration>
-                    <!-- we use maven wrapper instead of maven installation -->
-                    <mvnExecutable>./mvnw</mvnExecutable>
-		    <!-- commitDevelopmentVersionAtStart>true</commitDevelopmentVersionAtStart -->
-                    <!-- don't push to remote, since we want to try things out locally default is false-->
-		    <pushRemote>false</pushRemote>
-
-                    <!-- we use major.minor.patch versioning, being 0.1.2 respectively.
-                         By default the minor version is increased.
-                         Hotfixes increase the patch version. -->
-                    <!-- versionDigitToIncrement>0</versionDigitToIncrement -->
-					<commitMessagePrefix>BBB</commitMessagePrefix>
-                    <gitFlowConfig>
-                        <productionBranch>master</productionBranch>
-                        <!-- default is develop, but we use development -->
-                        <developmentBranch>develop</developmentBranch>
-                    </gitFlowConfig>
-                </configuration>
+		     <groupId>external.atlassian.jgitflow</groupId>
+            <artifactId>jgitflow-maven-plugin</artifactId>
+            <version>1.0-m5.1</version>
+            <configuration>
+				<flowInitContext>
+				<masterBranchName>master</masterBranchName>
+				<developBranchName>develop</developBranchName>
+				<featureBranchPrefix>feature/</featureBranchPrefix>
+				<releaseBranchPrefix>release/</releaseBranchPrefix>
+				<hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
+				</flowInitContext>
+            </configuration>	           
             </plugin>
         </plugins>
     </build>
